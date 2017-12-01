@@ -1,0 +1,25 @@
+			<h1>Stranger Things</h1>
+			<p>Uma declaração de amor aos clássicos sobrenaturais dos anos 80, Stranger Things é a história de um menino que desaparece sem deixar vestígios. 
+			Ao procurar por respostas, a família, os amigos e a polícia gradulamente mergulham num mistério envolvendo experimentos ultrassecretos do governo, forças 
+			sobrenaturais e uma estranha garotinha.</p>
+			<p>O primeiro episódio foi lançado em 15 de Julho de 2016, e a série está na sua segunda temporada.</p>
+			
+			<h2>Elenco</h2>
+			<p>Winona Ryder como Joyce Byers</p>
+			<p>David Harbour como Jim Hopper</p>
+			<p>Finn Wolfhard como Mike Wheeler</p>
+			<p>Millie Bobby Brown como Jane "Eleven" Ives</p>
+			<p>Gaten Matarazzo como Dustin Henderson</p>
+			<p>Caleb McLaughlin como Lucas Sinclair</p>
+			<p>Natalia Dyer como Nancy Wheeler</p>
+			<p>Charlie Heaton como Jonathan Byers</p>
+			<p>Cara Buono como Karen Wheeler</p>
+			<p>Matthew Modine como Dr. Martin Brenner</p>
+			<p>Noah Schnapp como Will Byers</p>
+			<p>Shannon Purser como Barbara</p>
+			<p>Joe Keery como Steve Harrington</p>
+			<p>Joe Chrest como Ted Wheeler</p>
+			<p>Rob Morgan (IV) como Officer Powell</p>
+			<p>Aimee Mullins como Terry Ives</p>
+			<p>Ross Partridge como Lonnie Byers</p>
+			<p>Brett Gelman como Murray Bauman</p>

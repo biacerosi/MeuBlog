@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#cabecalho{
+	background: url(../imagens/banner.jpg);
+	background-size: cover;
+	width: 100%;
+	min-height: calc(100vh - 450px);
+	padding: 0;
+	margin: 0;
+}
+.topnav{
+	overflow: hidden;
+	background-color: black;
+	opacity: 0.8;
+	width: 100%;
+}
+.topnav a {
+	display: block;
+	float: left;
+	color: white; 
+	padding: 1.16%;
+	text-decoration: none;
+	font-size: 1.0625em;
+}
+.topnav a:hover{
+	background-color: yellow;
+	color: black;
+	font-size: 1em;
+}
+h1 {
+	font-size: 35px;
+	font-family: Times New Roman;
+	font-style: italic;
+	padding-left: 20px;
+}
+p {
+	text-align: justify;
+	text-indent: 4em;
+}
+li{
+	list-style-type:none;
+}
+section {
+	padding: 3.125em;
+	background: #303030;
+}
+article{
+	max-width:1000px;
+	background: white;
+	padding: 40px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 25px;
+	font-family: Times New Roman;
+	font-style: italic;
+	padding-left: 20px;
+}
+h3{
+	font-size: 25px;
+	font-family: Times New Roman;
+	font-style: italic;
+	padding-left: 20px;
+	float: right;
+}
+.imgindex{
+	width: 20em;
+	height: 10em;
+	float: center;
+}
+.imgpagina{
+	width: 30em;
+	height: 15em;
+}
+.gilmore{
+	width: 15em;
+	height: 20em;
+}
