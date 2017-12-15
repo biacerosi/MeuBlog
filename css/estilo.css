@@ -3,18 +3,44 @@
 	padding: 0;
 }
 #cabecalho{
-	background: url(../imagens/banner.jpg);
+	background-image: url(../imagens/banner.jpg);
 	background-size: cover;
 	width: 100%;
-	min-height: calc(100vh - 450px);
+	height:calc(100vh/3);
 	padding: 0;
 	margin: 0;
 }
+
+#cabecalho h1{
+	display:none;
+}
+#af{
+	margin-top: 55px;
+	position:absolute;
+	margin-left:0px;
+	text-align:left;
+	width:100px;
+}
+
+#af a{
+	background-color:black;
+	font-size:20px;
+	width:250px;
+	display:block;
+	color: white;
+}
+
+#af a:hover{
+	color: black;
+	background-color: white;
+}
+
 .topnav{
 	overflow: hidden;
-	background-color: black;
-	opacity: 0.8;
 	width: 100%;
+	background-color: black;
+	color: white;
+	height: 60px;
 }
 .topnav a {
 	display: block;
@@ -23,59 +49,80 @@
 	padding: 1.16%;
 	text-decoration: none;
 	font-size: 1.0625em;
-}
-.topnav a:hover{
-	background-color: yellow;
-	color: black;
-	font-size: 1em;
-}
-h1 {
-	font-size: 35px;
-	font-family: Times New Roman;
-	font-style: italic;
-	padding-left: 20px;
+	height: 30px;
 }
 p {
 	text-align: justify;
-	text-indent: 4em;
+	text-indent: 4vw;
+}
+h1{
+	font-size: 4vw;
+}
+h1, h2, h3 {
+	font-style: italic;
 }
 li{
 	list-style-type:none;
 }
 section {
+	text-align:center;
 	padding: 3.125em;
 	background: #303030;
 }
 article{
+	text-align:left;
 	max-width:1000px;
 	background: white;
 	padding: 40px;
 	border-radius: 5px;
+	margin: auto;
 	margin-bottom: 20px;
-}
-h2{
-	font-size: 25px;
-	font-family: Times New Roman;
-	font-style: italic;
-	padding-left: 20px;
-}
-h3{
-	font-size: 25px;
-	font-family: Times New Roman;
-	font-style: italic;
-	padding-left: 20px;
-	float: right;
 }
 .imgindex{
 	width: 20em;
 	height: 10em;
+	max-width: 100%;
 	float: center;
 }
-.imgpagina{
-	width: 30em;
-	height: 15em;
+#gilmore{
+	max-width: 15em;
+	max-height: 20em;
+	float: right;
 }
-.gilmore{
-	width: 15em;
-	height: 20em;
+.imgpaginas{
+	max-width: 30em;
+	max-height: 15em;
+	float: right;
+	margin: 20px;
 }
+@media screen and (max-width: 1080px){
+.imgpaginas{
+	max-width: 12em;
+	max-height: 6em;
+	float: none;
+}}
+
+@media(max-width: 940px){
+	#cabecalho h1{
+		text-align:center;
+		font-family:vivaldi;
+		font-weight:100;
+		display:block;
+		margin-top:40px;
+		color:white;
+		font-size:calc(100vw/9);
+		position:absolute;
+	}
+	
+	#cabecalho{
+		text-align:center;
+		background-image:none;
+	}
+	section{
+		text-align:center;
+		padding:0;	
+	}
+}
+footer{
+	margin: 10px;
+}	

@@ -8,29 +8,34 @@
     </head>
 	<body>
 	<!-- foto de banner -->
-	<section id="cabecalho">
+		<section id="cabecalho">	
+		<h1>O Mundo das Séries</h1>	
+		</section>
 	<header>
 	</header>
 	<!-- menu -->	
 			<nav class="topnav">
-		<a href="index.html" tabindex="1">Home</a>
-		<a href="13reasons.html" tabindex="2"> 13 Reasons Why </a>
-		<a href="friends.html" tabindex="3"> Friends </a>
-		<a href="stranger.html" tabindex="4"> Stranger Things </a>
-		<a href="gilmore.html" tabindex="5"> Gilmore Girls </a>
-		<a href="fuller.html" tabindex="6"> Fuller House </a>
-		<a href="suits.html" tabindex="7"> Suits </a>
-		<a href="gossip.html" tabindex="8"> Gossip Girl </a>
-		<a href="place.html" tabindex="9"> The Good Place </a>
-		<a href="mother.html" tabindex="10"> How I Met Your Mother </a>
-		<a href="time.html" tabindex="11"> Once Upon a Time </a>
-		<a href="little.html" tabindex="12"> Pretty Little Liars </a>
+				<a href="javaScript:abrefecha()">Menu</a>
+				<div id="af" style="display: none;">
+					<a href="index.html" tabindex="1">Home</a>
+					<a href="13reasons.html" tabindex="2"> 13 Reasons Why </a>
+					<a href="friends.html" tabindex="3"> Friends </a>
+					<a href="stranger.html" tabindex="4"> Stranger Things </a>
+					<a href="gilmore.html" tabindex="5"> Gilmore Girls </a>
+					<a href="fuller.html" tabindex="6"> Fuller House </a>
+					<a href="suits.html" tabindex="7"> Suits </a>
+					<a href="gossip.html" tabindex="8"> Gossip Girl </a>
+					<a href="place.html" tabindex="9"> The Good Place </a>
+					<a href="mother.html" tabindex="10"> How I Met Your Mother </a>
+					<a href="time.html" tabindex="11"> Once Upon a Time </a>
+					<a href="little.html" tabindex="12"> Pretty Little Liars </a>
+				</div>
 			</nav>
 	</section>
 	<!-- corpo -->
 	<section>
 		<article>
-			<h2>Stranger Things</h2>
+			<h1>Stranger Things</h1>
 			<p>Uma declaração de amor aos clássicos sobrenaturais dos anos 80, Stranger Things é a história de um menino que desaparece sem deixar vestígios. 
 			Ao procurar por respostas, a família, os amigos e a polícia gradulamente mergulham num mistério envolvendo experimentos ultrassecretos do governo, forças 
 			sobrenaturais e uma estranha garotinha.</p>
@@ -59,7 +64,28 @@
 			<li>Ross Partridge como Lonnie Byers</li>
 			<li>Brett Gelman como Murray Bauman</li>
 			</ul>
-		</article>
-	</section>	
-			</body>
-	</html>
+			</article>
+	</section>
+		<footer>
+		<p> Copyright &copy; Beatriz Marcasi Cerosi, todos os direitos reservados.</p>
+		</footer>	
+	</body>
+		<script type="text/javascript">
+					function startmenu()
+					{
+						af.style.display = "none";
+					 }
+					 
+					function abrefecha()			
+					{
+						if(af.style.display == "none")
+						{
+							af.style.display = "block";
+						}
+						else
+						{
+							startmenu();
+						} 
+					}
+				</script>
+</html>

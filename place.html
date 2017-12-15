@@ -8,30 +8,35 @@
         <title>O mundo das séries</title>
     </head>
 	<body>
-	<!-- foto de banner -->
-	<section id="cabecalho">
-	<header>
-	</header>
-	<!-- menu -->	
+		<!-- foto de banner -->
+			<section id="cabecalho">	
+			<h1>O Mundo das Séries</h1>	
+			</section>
+			<header>
+			</header>
+			<!-- menu -->	
 			<nav class="topnav">
-		<a href="index.html" tabindex="1">Home</a>
-		<a href="13reasons.html" tabindex="2"> 13 Reasons Why </a>
-		<a href="friends.html" tabindex="3"> Friends </a>
-		<a href="stranger.html" tabindex="4"> Stranger Things </a>
-		<a href="gilmore.html" tabindex="5"> Gilmore Girls </a>
-		<a href="fuller.html" tabindex="6"> Fuller House </a>
-		<a href="suits.html" tabindex="7"> Suits </a>
-		<a href="gossip.html" tabindex="8"> Gossip Girl </a>
-		<a href="place.html" tabindex="9"> The Good Place </a>
-		<a href="mother.html" tabindex="10"> How I Met Your Mother </a>
-		<a href="time.html" tabindex="11"> Once Upon a Time </a>
-		<a href="little.html" tabindex="12"> Pretty Little Liars </a>
+				<a href="javaScript:abrefecha()">Menu</a>
+				<div id="af" style="display: none;">
+					<a href="index.html" tabindex="1">Home</a>
+					<a href="13reasons.html" tabindex="2"> 13 Reasons Why </a>
+					<a href="friends.html" tabindex="3"> Friends </a>
+					<a href="stranger.html" tabindex="4"> Stranger Things </a>
+					<a href="gilmore.html" tabindex="5"> Gilmore Girls </a>
+					<a href="fuller.html" tabindex="6"> Fuller House </a>
+					<a href="suits.html" tabindex="7"> Suits </a>
+					<a href="gossip.html" tabindex="8"> Gossip Girl </a>
+					<a href="place.html" tabindex="9"> The Good Place </a>
+					<a href="mother.html" tabindex="10"> How I Met Your Mother </a>
+					<a href="time.html" tabindex="11"> Once Upon a Time </a>
+					<a href="little.html" tabindex="12"> Pretty Little Liars </a>
+				</div>
 			</nav>
 	</section>
 	<!-- corpo -->
 	<section>
 		<article>
-				<h2>The Good Place</h2>
+			<h1>The Good Place</h1>
 			<p>A série acompanha Eleanor, uma mulher de Nova Jersey que percebe que não vem sendo uma pessoa do bem. Ela decide virar a página e aprender o que realmente 
 			significa ser “boa” ou “ruim”,ao mesmo tempo em que tenta consertar os erros do passado. Em sua jornada, ela se depara com Michael, um homem que, após uma série de 
 			circunstâncias inesperadas, se torna o guia de Eleanor na caminhada para se tornar alguém melhor.</p>
@@ -39,22 +44,43 @@
 			<img class="imgpaginas" src="imagens/goodplace.jpg" alt="Banner da série The Good Place "/>
 			<br/>
 			
-			<h3>Resumo da primeira temporada</h3>
+			<h2>Resumo da primeira temporada</h2>
 			<p>É necessário ser uma pessoa extremamente boa em vida para conseguir entrar no Lugar Bom. Ou então muita sorte, tal como aconteceu com Eleanor. 
 			Depois da protagonista conhecer Chidi (William Jackson Harper), a sua alma gêmea, ela revela que não deveria estar ali. Existe um engano, e ela entrou 
 			no lugar de outra pessoa que tinha o nome exatamente igual ao seu.</p>
 			<br/>
 			
-				<h3>Elenco</h3>
-				<ul>
-				<li>Kristen Bell como Eleanor Shellstrop</li>
-				<li>William Jackson Harper como Chidi Anagonye</li>
-				<li>Jameela Jamil como Tahani Al-Jamil</li>
-				<li>D'Arcy Carden como Janet</li>
-				<li>Manny Jacinto como Jianyu</li>
-				<li>Ted Danson como Michael</li>
-				</ul>
+			<h3>Elenco</h3>
+			<ul>
+			<li>Kristen Bell como Eleanor Shellstrop</li>
+			<li>William Jackson Harper como Chidi Anagonye</li>
+			<li>Jameela Jamil como Tahani Al-Jamil</li>
+			<li>D'Arcy Carden como Janet</li>
+			<li>Manny Jacinto como Jianyu</li>
+			<li>Ted Danson como Michael</li>
+			</ul>
 		</article>
-	</section>	
-			</body>
-	</html>
+	</section>
+		<footer>
+		<p> Copyright &copy; Beatriz Marcasi Cerosi, todos os direitos reservados.</p>
+		</footer>
+	</body>
+		<script type="text/javascript">
+				function startmenu()
+				{
+					af.style.display = "none";
+				 }
+				 
+				function abrefecha()			
+				{
+					if(af.style.display == "none")
+					{
+						af.style.display = "block";
+					}
+					else
+					{
+						startmenu();
+					} 
+				}
+			</script>
+</html>

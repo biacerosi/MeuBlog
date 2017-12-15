@@ -8,30 +8,35 @@
         <title>O mundo das séries</title>
     </head>
 	<body>
-	<!-- foto de banner -->
-	<section id="cabecalho">
-	<header>
-	</header>
-	<!-- menu -->	
+		<!-- foto de banner -->
+		<section id="cabecalho">	
+		<h1>O Mundo das Séries</h1>	
+		</section>
+			<header>
+			</header>
+			<!-- menu -->	
 			<nav class="topnav">
-		<a href="index.html" tabindex="1">Home</a>
-		<a href="13reasons.html" tabindex="2"> 13 Reasons Why </a>
-		<a href="friends.html" tabindex="3"> Friends </a>
-		<a href="stranger.html" tabindex="4"> Stranger Things </a>
-		<a href="gilmore.html" tabindex="5"> Gilmore Girls </a>
-		<a href="fuller.html" tabindex="6"> Fuller House </a>
-		<a href="suits.html" tabindex="7"> Suits </a>
-		<a href="gossip.html" tabindex="8"> Gossip Girl </a>
-		<a href="place.html" tabindex="9"> The Good Place </a>
-		<a href="mother.html" tabindex="10"> How I Met Your Mother </a>
-		<a href="time.html" tabindex="11"> Once Upon a Time </a>
-		<a href="little.html" tabindex="12"> Pretty Little Liars </a>
+				<a href="javaScript:abrefecha()">Menu</a>
+				<div id="af" style="display: none;">
+					<a href="index.html" tabindex="1">Home</a>
+					<a href="13reasons.html" tabindex="2"> 13 Reasons Why </a>
+					<a href="friends.html" tabindex="3"> Friends </a>
+					<a href="stranger.html" tabindex="4"> Stranger Things </a>
+					<a href="gilmore.html" tabindex="5"> Gilmore Girls </a>
+					<a href="fuller.html" tabindex="6"> Fuller House </a>
+					<a href="suits.html" tabindex="7"> Suits </a>
+					<a href="gossip.html" tabindex="8"> Gossip Girl </a>
+					<a href="place.html" tabindex="9"> The Good Place </a>
+					<a href="mother.html" tabindex="10"> How I Met Your Mother </a>
+					<a href="time.html" tabindex="11"> Once Upon a Time </a>
+					<a href="little.html" tabindex="12"> Pretty Little Liars </a>
+				</div>
 			</nav>
-	</section>
-	<!-- corpo -->
-	<section>
+		</section>
+		<!-- corpo -->
+		<section>
 		<article>
-			<h2>Pretty Little Liars</h2>
+			<h1>Pretty Little Liars</h1>
 			<p>Rosewood é uma pequena, tranquila e bela cidade na Pensilvânia. De tão tranquila e intocada, nunca se adivinharia que detém tantos segredos.</p>
 			<p>Há um ano, a popular Alison DiLaurentis desapareceu, deixando todos acreditarem que fora vítima de um assassinato. Depois desse grande fato na cidade, 
 			a amizade entre suas quatro inseparáveis amigas nunca mais foi a mesma. De forma trágica, o destino une Spencer, Hanna, Aria e Emily novamente. Mas o caos se instala 
@@ -58,6 +63,27 @@
 			<li>Andrea Parker - Jessica DiLaurentis</li>
 			</ul>
 		</article>
-	</section>	
-			</body>
-	</html>
+		</section>
+		<footer>
+		<p> Copyright &copy; Beatriz Marcasi Cerosi, todos os direitos reservados.</p>
+		</footer>
+	</body>
+		<script type="text/javascript">
+					function startmenu()
+					{
+						af.style.display = "none";
+					 }
+					 
+					function abrefecha()			
+					{
+						if(af.style.display == "none")
+						{
+							af.style.display = "block";
+						}
+						else
+						{
+							startmenu();
+						} 
+					}
+				</script>
+</html>
